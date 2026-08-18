@@ -1,2 +1,117 @@
-# Maria-Lourdes-Pascua
-I'm currently college student of BSIT
+STORE_RECEIPT=input("STORE RECEIPT")
+
+customer_name=input("customer name: ")
+contact_no=int(input("contact no: "))
+address=input("address: ")
+
+product1_name=input("product1 name: ")
+price1=float(input("price1: "))
+quantity1=int(input("quantity1: "))
+
+product2_name=input("product2 name: ")
+price2=float(input("price2: "))
+quantity2=int(input("quantity2: "))
+
+product3_name=input("product3 name: ")
+price3=float(input("price3: "))
+quantity3=int(input("quantity3: "))
+
+amount1= price1 * quantity1
+amount2= price2 * quantity2
+amount3= price3 * quantity3
+
+sub_total= amount1 + amount2 + amount3
+
+discount=float(input("discount(%): "))
+
+discount_amount= sub_total * (discount / 100)
+
+TOTAL_AMOUNT = sub_total - discount_amount 
+
+print("=============================")
+print("STORE RECEIPT", STORE_RECEIPT)
+print("=============================")
+
+print("customer name: ", customer_name)
+print("contact no: ", contact_no)
+print("address: ", address)
+print("=============================")
+print("productc1 name: ", product1_name)
+print("price1: ", price1)
+print("quantity1: ", quantity1)
+
+print("=============================")
+print("product2 name: ", product2_name)
+print("price2: ", price2)
+print("quantity2: ", quantity2)
+
+print("=============================")
+print("product3 name: ", product3_name)
+print("price3: ", price3)
+print("quantity3: ", quantity3)
+
+print("=============================")
+print("amount1", amount1)
+print("amount2", amount2)
+print("amount3", amount3)
+
+print("=============================")
+print("sub total", sub_total)
+print("discount", discount)
+print("discount amount", discount_amount)
+
+print("=============================")
+print("TOTAL AMOUNT", TOTAL_AMOUNT)
+print("=============================")
+
+STORE RECEIPT
+customer name: MARIA LOURDES PASCUA
+contact no: 09636701970
+address: QUEZON, NUEVA ECIJA
+product1 name: BOOKS
+price1: 180
+quantity1: 10
+product2 name: YELLOWPAD
+price2: 45
+quantity2: 8
+product3 name: BALLPEN
+price3: 15
+quantity3: 11
+discount(%): 5
+=============================
+STORE RECEIPT 
+=============================
+customer name:  MARIA LOURDES PASCUA
+contact no:  9636701970
+address:  QUEZON, NUEVA ECIJA
+=============================
+productc1 name:  BOOKS
+price1:  180.0
+quantity1:  10
+=============================
+product2 name:  YELLOWPAD
+price2:  45.0
+quantity2:  8
+=============================
+product3 name:  BALLPEN
+price3:  15.0
+quantity3:  11
+=============================
+amount1 1800.0
+amount2 360.0
+amount3 165.0
+=============================
+sub total 2325.0
+discount 5.0
+discount amount 116.25
+=============================
+TOTAL AMOUNT 2208.75
+=============================
+
+
+
+
+
+
+
+
