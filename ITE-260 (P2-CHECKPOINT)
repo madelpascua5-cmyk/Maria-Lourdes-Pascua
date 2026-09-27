@@ -1,0 +1,123 @@
+print("============================")
+def user():
+  input("ENTER STUDENT NAME: ")
+
+user()
+
+total = 0
+for i in range(3):
+  score=int(input("Enter Grade: "))
+  total=total+score
+
+Average=total/3
+print("Average: " ,Average)
+
+if Average >90:
+  print("Status: " "excellent")
+
+elif Average >80:
+  print("Status: " "Verry good")
+
+elif Average >75:
+  print("Status: " "passed")
+
+else:
+  print("Status: " "failed")
+  
+print("============================")
+
+user()
+
+total = 0
+for i in range(3):
+  score=int(input("Enter Grade: "))
+  total=total+score
+
+Average=total/3
+print("Average: " ,Average)
+
+if Average >90:
+  print("Status: " "excellent")
+
+elif Average >80:
+  print("Status: " "Verry good")
+
+elif Average >75:
+  print("Status: " "passed")
+
+else:
+  print("Status: " "failed")
+  
+print("============================")
+
+user()
+
+total = 0
+for i in range(3):
+  score=int(input("Enter Grade: "))
+  total=total+score
+
+Average=total/3
+print("Average: " ,Average)
+
+if Average >90:
+  print("Status: " "excellent")
+
+elif Average >80:
+  print("Status: " "Verry good")
+
+elif Average >75:
+  print("Status: " "passed")
+
+else:
+  print("Status: " "failed")
+  
+print("============================")
+
+
+
+
+RESULT:
+============================
+ENTER STUDENT NAME: CALVINCHEN
+Enter Grade: 75
+Enter Grade: 78
+Enter Grade: 80
+Average:  77.66666666666667
+Status: passed
+============================
+ENTER STUDENT NAME: ROXANNE
+Enter Grade: 97
+Enter Grade: 90
+Enter Grade: 95
+Average:  94.0
+Status: excellent
+============================
+ENTER STUDENT NAME: RAIZELLE
+Enter Grade: 85
+Enter Grade: 88
+Enter Grade: 86
+Average:  86.33333333333333
+Status: Verry good
+============================
+
+
+EXPLANATION:
+Based on my knowledge in coding, 
+"def" is used to call your code when
+there are already many things happening
+in your code or when it gets too long,
+so you don't have to code repeatedly. 
+You just need to call the name that you gave.
+For example, if my variable is "user", 
+I will just type user() like this and 
+the code will appear.
+
+The loop is used so you don't have
+to type repeatedly, for example if
+  you have many activities to do, 
+  you don't need to type over and over again.
+
+And lastly, if-elif-else will tell your status, 
+if your average is 75 and above, 
+the program will show "passed".
